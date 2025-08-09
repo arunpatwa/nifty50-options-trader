@@ -1,0 +1,371 @@
+2025-08-09 16:22:20,996 - src.data.database - INFO - _create_tables:170 - Database tables created/verified
+2025-08-09 16:22:20,997 - src.data.database - INFO - initialize:37 - Database initialized: test_trading_data.db
+2025-08-09 16:22:21,004 - src.data.database - INFO - close:529 - Database connection closed
+2025-08-09 16:22:21,005 - TestLogger - INFO - test_logging:132 - Test log message
+2025-08-09 16:28:21,517 - src.data.database - INFO - _create_tables:170 - Database tables created/verified
+2025-08-09 16:28:21,517 - src.data.database - INFO - initialize:37 - Database initialized: test_trading_data.db
+2025-08-09 16:28:21,523 - src.data.database - INFO - close:529 - Database connection closed
+2025-08-09 16:28:21,524 - TestLogger - INFO - test_logging:132 - Test log message
+2025-08-09 16:29:29,777 - src.data.database - INFO - _create_tables:170 - Database tables created/verified
+2025-08-09 16:29:29,778 - src.data.database - INFO - initialize:37 - Database initialized: test_trading_data.db
+2025-08-09 16:29:29,785 - src.data.database - INFO - close:529 - Database connection closed
+2025-08-09 16:29:29,786 - TestLogger - INFO - test_logging:132 - Test log message
+2025-08-09 16:33:33,282 - __main__ - INFO - initialize:40 - Initializing Nifty 50 Options Trading Bot...
+2025-08-09 16:33:33,330 - src.data.database - INFO - _create_tables:170 - Database tables created/verified
+2025-08-09 16:33:33,331 - src.data.database - INFO - initialize:37 - Database initialized: data/trading_data.db
+2025-08-09 16:33:33,498 - src.api.dhan_client - ERROR - authenticate:72 - Authentication failed: {"timestamp":1754737413456,"status":404,"error":"Not Found","path":"/v2/funds"}
+2025-08-09 16:33:33,499 - __main__ - ERROR - initialize:49 - Failed to authenticate with Dhan API
+2025-08-09 16:33:33,499 - __main__ - INFO - stop_trading:112 - Stopping automated trading...
+2025-08-09 16:33:33,499 - src.data.database - INFO - close:529 - Database connection closed
+2025-08-09 16:33:33,500 - __main__ - INFO - stop_trading:131 - Trading bot stopped
+2025-08-09 16:39:29,143 - __main__ - INFO - initialize:40 - Initializing Nifty 50 Options Trading Bot...
+2025-08-09 16:39:29,144 - src.data.database - INFO - _create_tables:170 - Database tables created/verified
+2025-08-09 16:39:29,144 - src.data.database - INFO - initialize:37 - Database initialized: data/trading_data.db
+2025-08-09 16:39:29,288 - src.api.dhan_client - ERROR - authenticate:72 - Authentication failed: {"timestamp":1754737769215,"status":404,"error":"Not Found","path":"/v2/funds"}
+2025-08-09 16:39:29,289 - __main__ - ERROR - initialize:49 - Failed to authenticate with Dhan API
+2025-08-09 16:39:29,289 - __main__ - INFO - stop_trading:112 - Stopping automated trading...
+2025-08-09 16:39:29,289 - src.data.database - INFO - close:529 - Database connection closed
+2025-08-09 16:39:29,290 - __main__ - INFO - stop_trading:131 - Trading bot stopped
+2025-08-09 16:41:29,321 - __main__ - INFO - initialize:40 - Initializing Nifty 50 Options Trading Bot...
+2025-08-09 16:41:29,322 - src.data.database - INFO - _create_tables:170 - Database tables created/verified
+2025-08-09 16:41:29,322 - src.data.database - INFO - initialize:37 - Database initialized: data/trading_data.db
+2025-08-09 16:41:29,481 - src.api.dhan_client - ERROR - authenticate:72 - Authentication failed: {"timestamp":1754737889397,"status":404,"error":"Not Found","path":"/v2/funds"}
+2025-08-09 16:41:29,481 - __main__ - ERROR - initialize:49 - Failed to authenticate with Dhan API
+2025-08-09 16:41:29,482 - __main__ - INFO - stop_trading:112 - Stopping automated trading...
+2025-08-09 16:41:29,482 - src.data.database - INFO - close:529 - Database connection closed
+2025-08-09 16:41:29,483 - __main__ - INFO - stop_trading:131 - Trading bot stopped
+2025-08-09 16:42:24,322 - __main__ - INFO - initialize:40 - Initializing Nifty 50 Options Trading Bot...
+2025-08-09 16:42:24,323 - src.data.database - INFO - _create_tables:170 - Database tables created/verified
+2025-08-09 16:42:24,323 - src.data.database - INFO - initialize:37 - Database initialized: data/trading_data.db
+2025-08-09 16:42:24,476 - src.api.dhan_client - ERROR - authenticate:72 - Authentication failed: {"timestamp":1754737944389,"status":404,"error":"Not Found","path":"/v2/funds"}
+2025-08-09 16:42:24,477 - __main__ - ERROR - initialize:49 - Failed to authenticate with Dhan API
+2025-08-09 16:42:24,478 - __main__ - INFO - stop_trading:112 - Stopping automated trading...
+2025-08-09 16:42:24,478 - src.data.database - INFO - close:529 - Database connection closed
+2025-08-09 16:42:24,479 - __main__ - INFO - stop_trading:131 - Trading bot stopped
+2025-08-09 16:54:10,158 - __main__ - INFO - initialize:40 - Initializing Nifty 50 Options Trading Bot...
+2025-08-09 16:54:10,159 - src.data.database - INFO - _create_tables:170 - Database tables created/verified
+2025-08-09 16:54:10,159 - src.data.database - INFO - initialize:37 - Database initialized: data/trading_data.db
+2025-08-09 16:54:10,385 - src.api.dhan_client - INFO - authenticate:68 - Dhan API authentication successful
+2025-08-09 16:54:10,435 - src.api.market_data - ERROR - connect:77 - Failed to connect to market data feed: BaseEventLoop.create_connection() got an unexpected keyword argument 'extra_headers'
+2025-08-09 16:54:10,436 - src.data.data_manager - ERROR - start_market_data_feed:80 - Failed to start market data feed
+2025-08-09 16:54:10,436 - __main__ - INFO - initialize:78 - Trading bot initialized successfully
+2025-08-09 16:54:10,436 - __main__ - INFO - start_trading:89 - Starting automated trading...
+2025-08-09 16:54:10,437 - __main__ - INFO - start_trading:95 - Starting scalping strategy
+2025-08-09 16:54:10,437 - __main__ - INFO - start_trading:95 - Starting momentum strategy
+2025-08-09 16:54:10,438 - ScalpingStrategy - INFO - run:81 - Starting ScalpingStrategy strategy
+2025-08-09 16:54:10,439 - ScalpingStrategy - INFO - initialize:57 - Initializing scalping strategy
+2025-08-09 16:54:10,439 - ScalpingStrategy - INFO - initialize:71 - Scalping strategy initialized
+2025-08-09 16:54:10,439 - MomentumStrategy - INFO - run:81 - Starting MomentumStrategy strategy
+2025-08-09 16:54:10,440 - MomentumStrategy - INFO - initialize:62 - Initializing momentum strategy
+2025-08-09 16:54:10,440 - MomentumStrategy - INFO - initialize:76 - Momentum strategy initialized
+2025-08-09 16:54:10,631 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 16:54:15,692 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 16:54:20,766 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 16:54:25,844 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 16:54:30,909 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 16:54:35,973 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 16:54:41,039 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 16:54:46,159 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 16:54:51,226 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 16:54:56,297 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 16:55:01,367 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 16:55:06,436 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 16:55:11,491 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 16:55:16,560 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 16:55:21,626 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 16:55:26,729 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 16:55:31,796 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 16:55:36,877 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 16:55:41,943 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 16:55:47,004 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 16:55:52,073 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 16:55:57,137 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 16:56:02,209 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 16:56:07,283 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 16:56:12,352 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 16:56:17,445 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 16:56:22,526 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 16:56:27,616 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 16:56:32,676 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 16:56:37,744 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 16:56:42,814 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 16:56:45,993 - __main__ - INFO - signal_handler:135 - Received signal 15, shutting down...
+2025-08-09 16:56:47,817 - __main__ - INFO - stop_trading:112 - Stopping automated trading...
+2025-08-09 16:56:47,817 - ScalpingStrategy - INFO - stop:120 - Stopping ScalpingStrategy strategy
+2025-08-09 16:56:47,818 - MomentumStrategy - INFO - stop:120 - Stopping MomentumStrategy strategy
+2025-08-09 16:56:47,818 - src.data.data_manager - INFO - stop_market_data_feed:92 - Market data feed stopped
+2025-08-09 16:56:47,818 - src.data.database - INFO - close:529 - Database connection closed
+2025-08-09 16:56:47,818 - __main__ - INFO - stop_trading:131 - Trading bot stopped
+2025-08-09 16:56:47,875 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 16:56:52,978 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 16:56:58,049 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 16:57:03,106 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 16:57:08,170 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 16:57:10,451 - ScalpingStrategy - INFO - cleanup:433 - Scalping strategy cleanup completed
+2025-08-09 16:57:10,451 - ScalpingStrategy - INFO - run:116 - ScalpingStrategy strategy stopped
+2025-08-09 16:57:10,452 - MomentumStrategy - INFO - cleanup:614 - Momentum strategy cleanup completed
+2025-08-09 16:57:10,452 - MomentumStrategy - INFO - run:116 - MomentumStrategy strategy stopped
+2025-08-09 16:57:13,219 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 16:57:18,306 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 16:57:23,376 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 16:57:28,436 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 16:57:33,504 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 16:57:38,575 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 16:57:43,647 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 16:57:48,715 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 16:57:53,791 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 16:57:58,869 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 16:58:03,948 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 16:58:09,026 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 16:58:14,103 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 16:58:19,168 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 16:58:24,242 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 16:58:29,343 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 16:58:34,407 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 16:58:39,474 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 16:58:44,573 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 16:58:49,631 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 16:58:54,699 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 16:58:59,758 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 16:59:04,814 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 16:59:09,871 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 16:59:14,953 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 16:59:20,038 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 16:59:25,145 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 16:59:30,218 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 16:59:35,276 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 16:59:40,357 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 16:59:45,434 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 16:59:50,504 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 16:59:55,560 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 17:00:00,738 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 17:00:05,826 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 17:00:10,880 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 17:00:15,971 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 17:00:21,046 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 17:00:26,116 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 17:00:31,187 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 17:00:36,255 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 17:00:41,359 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 17:00:46,432 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 17:00:46,503 - __main__ - INFO - initialize:40 - Initializing Nifty 50 Options Trading Bot...
+2025-08-09 17:00:46,504 - src.data.database - INFO - _create_tables:170 - Database tables created/verified
+2025-08-09 17:00:46,504 - src.data.database - INFO - initialize:37 - Database initialized: data/trading_data.db
+2025-08-09 17:00:46,683 - src.api.dhan_client - INFO - authenticate:64 - Dhan API authentication successful
+2025-08-09 17:00:46,732 - src.api.market_data - ERROR - connect:77 - Failed to connect to market data feed: BaseEventLoop.create_connection() got an unexpected keyword argument 'extra_headers'
+2025-08-09 17:00:46,732 - src.data.data_manager - ERROR - start_market_data_feed:80 - Failed to start market data feed
+2025-08-09 17:00:46,732 - __main__ - INFO - initialize:78 - Trading bot initialized successfully
+2025-08-09 17:00:46,733 - __main__ - INFO - start_trading:89 - Starting automated trading...
+2025-08-09 17:00:46,733 - __main__ - INFO - start_trading:95 - Starting scalping strategy
+2025-08-09 17:00:46,733 - __main__ - INFO - start_trading:95 - Starting momentum strategy
+2025-08-09 17:00:46,734 - ScalpingStrategy - INFO - run:81 - Starting ScalpingStrategy strategy
+2025-08-09 17:00:46,734 - ScalpingStrategy - INFO - initialize:57 - Initializing scalping strategy
+2025-08-09 17:00:46,735 - ScalpingStrategy - INFO - initialize:71 - Scalping strategy initialized
+2025-08-09 17:00:46,735 - MomentumStrategy - INFO - run:81 - Starting MomentumStrategy strategy
+2025-08-09 17:00:46,735 - MomentumStrategy - INFO - initialize:62 - Initializing momentum strategy
+2025-08-09 17:00:46,736 - MomentumStrategy - INFO - initialize:76 - Momentum strategy initialized
+2025-08-09 17:00:46,981 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:00:51,516 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 17:00:52,035 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:00:56,585 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 17:00:57,090 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:01:01,651 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 17:01:02,140 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:01:06,728 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 17:01:07,198 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:01:11,797 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 17:01:12,257 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:01:16,865 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 17:01:17,311 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:01:21,943 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 17:01:22,368 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:01:27,026 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 17:01:27,424 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:01:32,078 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 17:01:32,481 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:01:37,149 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 17:01:37,535 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:01:42,219 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 17:01:42,594 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:01:47,294 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 17:01:47,658 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:01:52,365 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 17:01:52,717 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:01:57,455 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 17:01:57,783 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:02:02,550 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 17:02:02,845 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:02:06,054 - __main__ - INFO - initialize:40 - Initializing Nifty 50 Options Trading Bot...
+2025-08-09 17:02:06,055 - src.data.database - INFO - _create_tables:170 - Database tables created/verified
+2025-08-09 17:02:06,055 - src.data.database - INFO - initialize:37 - Database initialized: data/trading_data.db
+2025-08-09 17:02:06,230 - src.api.dhan_client - INFO - authenticate:64 - Dhan API authentication successful
+2025-08-09 17:02:06,293 - src.api.market_data - ERROR - connect:77 - Failed to connect to market data feed: BaseEventLoop.create_connection() got an unexpected keyword argument 'extra_headers'
+2025-08-09 17:02:06,294 - src.data.data_manager - ERROR - start_market_data_feed:80 - Failed to start market data feed
+2025-08-09 17:02:06,294 - __main__ - INFO - initialize:78 - Trading bot initialized successfully
+2025-08-09 17:02:06,294 - __main__ - INFO - start_trading:89 - Starting automated trading...
+2025-08-09 17:02:06,294 - __main__ - INFO - start_trading:95 - Starting scalping strategy
+2025-08-09 17:02:06,295 - __main__ - INFO - start_trading:95 - Starting momentum strategy
+2025-08-09 17:02:06,296 - ScalpingStrategy - INFO - run:81 - Starting ScalpingStrategy strategy
+2025-08-09 17:02:06,296 - ScalpingStrategy - INFO - initialize:57 - Initializing scalping strategy
+2025-08-09 17:02:06,296 - ScalpingStrategy - INFO - initialize:71 - Scalping strategy initialized
+2025-08-09 17:02:06,297 - MomentumStrategy - INFO - run:81 - Starting MomentumStrategy strategy
+2025-08-09 17:02:06,297 - MomentumStrategy - INFO - initialize:62 - Initializing momentum strategy
+2025-08-09 17:02:06,297 - MomentumStrategy - INFO - initialize:76 - Momentum strategy initialized
+2025-08-09 17:02:06,495 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:02:07,610 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 17:02:07,903 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:02:11,588 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:02:12,697 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 17:02:12,965 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:02:16,646 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:02:17,759 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 17:02:18,022 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:02:21,709 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:02:22,820 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 17:02:23,082 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:02:26,762 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:02:27,876 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 17:02:28,137 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:02:31,822 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:02:32,937 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 17:02:33,197 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:02:36,878 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:02:37,998 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 17:02:38,254 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:02:41,939 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:02:43,052 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 17:02:43,316 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:02:46,993 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:02:48,105 - src.api.dhan_client - ERROR - get_orders:243 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/v2/orders'
+2025-08-09 17:02:48,373 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:03:27,741 - __main__ - INFO - initialize:40 - Initializing Nifty 50 Options Trading Bot...
+2025-08-09 17:03:27,743 - src.data.database - INFO - _create_tables:170 - Database tables created/verified
+2025-08-09 17:03:27,743 - src.data.database - INFO - initialize:37 - Database initialized: data/trading_data.db
+2025-08-09 17:03:27,996 - src.api.dhan_client - INFO - authenticate:64 - Dhan API authentication successful
+2025-08-09 17:03:28,041 - src.api.market_data - ERROR - connect:77 - Failed to connect to market data feed: BaseEventLoop.create_connection() got an unexpected keyword argument 'extra_headers'
+2025-08-09 17:03:28,042 - src.data.data_manager - ERROR - start_market_data_feed:80 - Failed to start market data feed
+2025-08-09 17:03:28,042 - __main__ - INFO - initialize:78 - Trading bot initialized successfully
+2025-08-09 17:03:28,042 - __main__ - INFO - start_trading:89 - Starting automated trading...
+2025-08-09 17:03:28,043 - __main__ - INFO - start_trading:95 - Starting scalping strategy
+2025-08-09 17:03:28,043 - __main__ - INFO - start_trading:95 - Starting momentum strategy
+2025-08-09 17:03:28,044 - ScalpingStrategy - INFO - run:81 - Starting ScalpingStrategy strategy
+2025-08-09 17:03:28,044 - ScalpingStrategy - INFO - initialize:57 - Initializing scalping strategy
+2025-08-09 17:03:28,044 - ScalpingStrategy - INFO - initialize:71 - Scalping strategy initialized
+2025-08-09 17:03:28,045 - MomentumStrategy - INFO - run:81 - Starting MomentumStrategy strategy
+2025-08-09 17:03:28,045 - MomentumStrategy - INFO - initialize:62 - Initializing momentum strategy
+2025-08-09 17:03:28,045 - MomentumStrategy - INFO - initialize:76 - Momentum strategy initialized
+2025-08-09 17:03:28,282 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:03:33,362 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:03:38,426 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:03:43,508 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:03:48,578 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:03:53,646 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:03:58,720 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:04:03,799 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:04:08,864 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:04:13,934 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:04:19,005 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:04:24,066 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:04:29,151 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:04:34,211 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:04:39,279 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:04:44,380 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:04:49,447 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:04:54,536 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:04:59,610 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:05:04,683 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:05:09,755 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:05:14,815 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:05:19,871 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:05:24,952 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:05:30,045 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:05:35,114 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:05:40,189 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:05:45,261 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:05:50,344 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:05:55,424 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:06:00,508 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:06:05,585 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:06:10,677 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:06:15,744 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:06:20,799 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:06:25,876 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:06:30,953 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:06:36,008 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:06:41,068 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:06:46,147 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:06:51,214 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:06:56,280 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:07:01,361 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:07:06,464 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:07:11,541 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:07:16,627 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:07:21,693 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:07:26,760 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:07:31,841 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:07:36,901 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:07:41,961 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:07:47,025 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:07:52,107 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:07:57,185 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:08:02,277 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:08:07,343 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:08:12,414 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:08:17,495 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:08:22,655 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:08:27,726 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:08:32,792 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:08:37,862 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:08:42,933 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:08:48,007 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:08:53,080 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:08:58,158 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:09:03,239 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:09:08,311 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:09:13,404 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:09:18,474 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:09:23,544 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:09:28,613 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:09:33,672 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:09:38,726 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:09:43,800 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:09:48,891 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:09:53,959 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:09:59,036 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:10:04,093 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:10:09,149 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:10:14,218 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:10:19,286 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:10:24,345 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:10:29,399 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:10:34,494 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:10:39,545 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:10:44,618 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:10:49,691 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:10:54,859 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:10:59,936 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:11:04,996 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:11:10,068 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:11:15,146 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:11:20,221 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:11:25,312 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:11:30,376 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:11:35,442 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:11:40,532 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:11:45,602 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:11:50,687 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:11:55,759 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:12:00,842 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:12:05,922 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:12:11,109 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:12:16,194 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:12:21,272 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:12:26,348 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:12:31,419 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:12:36,497 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:12:41,574 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:12:46,648 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:12:51,726 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:12:56,795 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:13:01,851 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
+2025-08-09 17:13:06,924 - src.api.dhan_client - ERROR - get_orders:116 - Error getting orders: 200, message='Attempt to decode JSON with unexpected mimetype: text/html;charset=utf-8', url='https://dhanhq.co/api/v2/orders'
