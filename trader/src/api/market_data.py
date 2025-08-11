@@ -59,7 +59,6 @@ class MarketDataManager:
             
             self.ws_connection = await websockets.connect(
                 self.feed_url,
-                extra_headers=headers,
                 ping_interval=30,
                 ping_timeout=10
             )

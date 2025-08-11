@@ -98,45 +98,57 @@ class DhanClient:
         """Get all orders"""
         try:
             if not await self._ensure_authenticated():
-                return None
+                return []
             
             headers = self._get_headers()
             url = f"{self.base_url}{self.endpoints['orders']}"
             
             async with self.session.get(url, headers=headers) as response:
                 if response.status == 200:
-                    result = await response.json()
-                    return result.get('data', [])
+                    content_type = response.headers.get('content-type', '')
+                    if 'application/json' in content_type:
+                        result = await response.json()
+                        return result.get('data', [])
+                    else:
+                        # Handle HTML response (likely means no orders)
+                        self.logger.logger.debug("Orders endpoint returned HTML, likely no orders exist")
+                        return []
                 else:
                     error_msg = await response.text()
-                    self.logger.logger.error(f"Failed to get orders: {error_msg}")
-                    return None
+                    self.logger.logger.error(f"Failed to get orders: HTTP {response.status} - {error_msg}")
+                    return []
                     
         except Exception as e:
             self.logger.logger.error(f"Error getting orders: {e}")
-            return None
+            return []
     
     async def get_positions(self) -> Optional[List[Dict[str, Any]]]:
         """Get all positions"""
         try:
             if not await self._ensure_authenticated():
-                return None
+                return []
             
             headers = self._get_headers()
             url = f"{self.base_url}{self.endpoints['positions']}"
             
             async with self.session.get(url, headers=headers) as response:
                 if response.status == 200:
-                    result = await response.json()
-                    return result.get('data', [])
+                    content_type = response.headers.get('content-type', '')
+                    if 'application/json' in content_type:
+                        result = await response.json()
+                        return result.get('data', [])
+                    else:
+                        # Handle HTML response (likely means no positions)
+                        self.logger.logger.debug("Positions endpoint returned HTML, likely no positions exist")
+                        return []
                 else:
                     error_msg = await response.text()
-                    self.logger.logger.error(f"Failed to get positions: {error_msg}")
-                    return None
+                    self.logger.logger.error(f"Failed to get positions: HTTP {response.status} - {error_msg}")
+                    return []
                     
         except Exception as e:
             self.logger.logger.error(f"Error getting positions: {e}")
-            return None
+            return []
     
     async def place_order(self, order_data: Dict[str, Any]) -> Optional[str]:
         """Place a trading order"""
